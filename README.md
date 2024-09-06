@@ -1,8 +1,9 @@
 # Coffee-Sales-Excel-Dashboard-Project
+Dashboard for visualizing coffee sales over time periods.
 
-Dashboard for visualizing coffee sales over time periods. The key metrics are Top 5 Customers and Top Permforming Countries. All the charts can be filtered by coffee roast, coffee package size, and whether the purchase was made by a customer that has a loyalty card.
+The key metrics are Top 5 Customers and Top Permforming Countries. All the charts can be filtered by coffee roast, coffee package size, and whether the purchase was made by a customer that has a loyalty card.
 
-Worksheet table's data were joined via the XLOOKUP and dynamic combination of INDEX and MATCH functions.
+Pulled in other worksheet's data to the Orders worksheet via the XLOOKUP and dynamic combination of INDEX and MATCH functions. The worksheets are the tables and the "tables" were joined by "foreign keys" Customer ID and Product ID.
 
 Pivot tables were created for summarizing Total Sales, Sales by Customers, and Sales by Country.
 
